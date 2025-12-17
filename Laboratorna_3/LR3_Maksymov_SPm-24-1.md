@@ -31,21 +31,25 @@ C:\Program Files\NetLogo 6.3.0\models\ants3
 
 Параметри та їх можливі діапазони були автоматично вилучені середовищем BehaviorSearch з інтерфейсу імітаційної моделі за допомогою кнопки **«Load parameters from model interface»**:
 
+<pre>
 ["population" [0 1 200]
 ["diffusion-rate" [0 1 99]]
 ["evaporation-rate" [0 1 99]]
 ["max-food-sources" [1 1 6]]
 ["reproduction-enabled?" true false]
 ["food-per-new-ant" [1 1 20]]
-
+</pre>
+  
 Діапазони значень параметрів були підібрані таким чином, щоб з одного боку охопити достатньо широкий простір пошуку, а з іншого - не надмірно збільшувати час симуляції:
 
+<pre>
 ["population" [0 1 200]]
 ["diffusion-rate" [0 1 60]]
 ["evaporation-rate" [0 1 60]]
 ["max-food-sources" 1]
 ["reproduction-enabled?" false]
 ["food-per-new-ant" [1 1 20]]
+</pre>
 
 ### Використовувана міра
 
